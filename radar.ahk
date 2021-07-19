@@ -17,7 +17,7 @@ Capslock::Esc ; remap capslock to esc
 !o::send, ^{Delete}
 
 ;insert date faster
-!d:: ;insert curernt date and time
+!c:: ;insert curernt date and time
      FormatTime, CurrentDateTime,, (hhmm tt) dd-M-yyyy
      SendInput, %CurrentDateTime%
 return
